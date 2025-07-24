@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './product.component.css'
 })
 export class ProductComponent {
- name = 'SSR Laptop';
+  name = 'SSR Laptop';
   price = 59999;
   description = 'A high-performance laptop rendered on the server!';
 }

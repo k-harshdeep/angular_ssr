@@ -1,9 +1,8 @@
-<h1>Hello Angular SSR</h1>
+<h1>Welcome to Angular SSR Demo</h1>
 
-@defer (hydrate on interaction) {
-  <div>
-    <p>This section is deferred and hydrated on interaction.</p>
-  </div>
+@defer (hydrate on hover) {
+  <!-- @defer (on interaction) { -->
+  <app-product></app-product>
 } @placeholder {
-  <p>Loading deferred content...</p>
+  <div>Large component placeholder</div>
 }
